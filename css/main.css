@@ -1,0 +1,131 @@
+*{
+
+	box-sizing: border-box;
+}
+
+body{
+
+	background: rgba(226,226,226,1);
+	background: -moz-linear-gradient(-45deg, rgba(226,226,226,1) 0%, rgba(252,252,252,1) 0%, rgba(240,240,240,1) 99%, rgba(254,254,254,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(0%, rgba(252,252,252,1)), color-stop(99%, rgba(240,240,240,1)), color-stop(100%, rgba(254,254,254,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(226,226,226,1) 0%, rgba(252,252,252,1) 0%, rgba(240,240,240,1) 99%, rgba(254,254,254,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(226,226,226,1) 0%, rgba(252,252,252,1) 0%, rgba(240,240,240,1) 99%, rgba(254,254,254,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(226,226,226,1) 0%, rgba(252,252,252,1) 0%, rgba(240,240,240,1) 99%, rgba(254,254,254,1) 100%);
+	background: linear-gradient(135deg, rgba(226,226,226,1) 0%, rgba(252,252,252,1) 0%, rgba(240,240,240,1) 99%, rgba(254,254,254,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );
+}
+.grid{
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+h1{
+
+	font-family: Monoton;
+	color: rgb(284, 84, 95);
+}
+
+#foo-text{
+
+	font-family: Monoton;
+	color: rgb(284, 84, 95);
+}
+
+.row {
+
+	width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.row div{
+
+	height: 90px;
+	padding: 5px;
+	overflow: auto;
+	text-align: center;
+}
+
+.row:nth-child(even){
+
+	color: rgb(76,106,141);
+}
+.row:nth-child(odd){
+
+	color: rgb(12,157,159);
+}
+.row :nth-child(even){
+
+	border: 2px solid rgb(251,195,141);
+}
+.row :nth-child(odd){
+
+	border: 2px solid rgb(241,68,64);
+}
+
+.col-1{
+
+	width: 8.33%;
+}
+
+.col-2{
+
+	width: 16.66%;
+
+}
+
+.col-3{
+
+	width: 24.99%;
+
+}
+
+.col-4{
+
+	width: 33.33%;
+
+	
+}
+
+.col-5{
+
+	width: 41.66%;	
+}
+
+.col-6{
+
+	width: 49.99%;	
+}
+
+.col-7{
+
+	width: 58.33%;	
+}
+
+.col-8{
+
+	width: 66.66%;	
+}
+
+.col-9{
+
+	width: 74.99%;
+}
+
+.col-10{
+
+	width: 83.33%;
+}
+
+.col-11{
+	
+	width: 91.66%;
+}
+
+.col-12{
+
+	width: 99.99%;
+}
